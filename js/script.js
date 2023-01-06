@@ -1,26 +1,29 @@
 "use strict";
 
-//alert('Hello');
+console.log('arr' + " - object");
+console.log(4 + "5");
 
-//const result = confirm("Are you here ?");
-//console.log(result);
+let incr = 10,
+    decr = 10;
 
-//const answer = +prompt("Вам есть 18?", "18");
-//console.log(answer + 5);//например так показывает что строка
+//++incr;
+//--decr;
 
-/*const answers = [];
+console.log(++incr);
+console.log(--decr);
 
-answers[0] = prompt('Как ваше имя?', '');
-answers[1] = prompt('Как ваша фамилия?', '');
-answers[2] = prompt('Сколько вам лет?', '');
+console.log(5%2);
 
-console.log(typeof(answers));
-console.log(typeof(null));*/
+//console.log(2*4 === '8');
+//console.log(2 + 2 * 2 === 8);
+console.log(2 + 2 * 2 !== '6');//оператор != не равен
 
-const category = 'toys';
+&&
+||
 
-console.log(`https://someurl.com/${category}/5`);
+const isChecked = false,
+      isClose = false;
 
-const user ="Ivan";
+//console.log(isChecked && isClose);
 
-alert(`Привет, ${user}`);
+console.log(isChecked || !isClose);
